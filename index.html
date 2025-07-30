@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jewels</title>
+
+    <link rel="stylesheet" href="index.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="">
+      <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#home">Jewels</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+      <div class="container text-center " data-aos="fade-up">
+        <h1 class="">Crafted Elegance</h1>
+        <p class=" ">
+          Discover timeless beauty in every piece of our exquisite collection
+        </p>
+
+        <a href="#contact" class="btn btn-gold mt-3">Explore Now</a>
+      </div>
+    </section>
+
+    <!-- about -->
+
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <h2 class="text-gold text-center fw-bold mb-4" data-aos="fade-up">
+          About Us
+        </h2>
+        <div class="row align-items-center flex-md-row">
+          <div class="col-md-6" data-aos="fade-right">
+            <p class="text-white">
+              At <strong>Jewel</strong>, we craft timeless jewellery that
+              reflects heritage and elegance. Every piece we design tells a
+              story - from sparkling earrings to delicate necklaces, each
+              creation carries the soul of skilled craftsmanship.
+            </p>
+            <p class="text-white">
+              With a passion for excellence, we use premium materials, attention
+              to detail, and the spirit of tradition to produce collections that
+              celebrate both individuality and beauty.
+            </p>
+            <p class="text-white">
+              Our mission is to make you feel confident, radiant, and truly
+              special with every piece you wear. Whether you're choosing a gift
+              or treating yourself, JewelleryNX promises style that lasts
+              forever.
+            </p>
+          </div>
+
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <img
+              src="images/earingd.jpg"
+              alt="Jewellery About"
+              class="img-fluid rounded-4 about-img shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- download -->
+    <section id="download" class="download-section py-5">
+      <div class="container text-center">
+        <h2 class="text-gold fw-bold mb-4 pb-4" data-aos="fade-up">
+          Download Our App
+        </h2>
+        <p
+          class="text-white mx-auto pb-4"
+          style="max-width: 700px"
+          data-aos="fade-up"
+        >
+          Experience the elegance on the go! Download the Jewel mobile app to
+          explore the latest collections, track your orders, and enjoy exclusive
+          deals - all at your fingertips.
+        </p>
+
+        <div
+          class="d-flex justify-content-center gap-3 mt-4 flex-wrap"
+          data-aos="zoom-in"
+        >
+          <a href="#" class="btn btn-gold d-flex align-items-center gap-2">
+            <i class="fab fa-google-play"></i> Play Store
+          </a>
+          <a href="#" class="btn btn-gold d-flex align-items-center gap-2">
+            <i class="fab fa-apple"></i> App Store
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials" class="testimonials py-5 text-white bg-dark">
+      <h2 class="text-center fw-bold mb-4 text-gold" data-aos="fade-up">What Our Clients Say</h2>
+      <div class="container">
+        <div class="swiper mySwiper p-5">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div
+              class="swiper-slide"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="card bg-dark text-white border-0 p-4 test-card h-100">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+                  class="rounded-circle mx-auto mb-3"
+                  alt="Priya Mehra"
+                />
+                <h5 class="fw-bold mb-0 text-gold">Priya Mehra</h5>
+                <p class="mt-3 px-3 fst-italic">
+                  Absolutely stunning collection! I felt like royalty on my big
+                  day.
+                </p>
+                <div class="text-gold mb-2">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="swiper-slide"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="card bg-dark text-white border-0 p-4 test-card h-100">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
+                  class="rounded-circle mx-auto mb-3"
+                  alt="Raj Malhotra"
+                />
+                <h5 class="fw-bold mb-0 text-gold">Raj Malhotra</h5>
+                <p class="mt-3 px-3 fst-italic">
+                  Loved the craftsmanship. Every piece we purchased was
+                  exquisite and timeless.
+                </p>
+                <!-- <i class="fas fa-quote-right me-2 text-gold"></i> -->
+                <div class="text-gold mb-2">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="swiper-slide"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="card bg-dark text-white border-0 p-4 test-card h-100">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).jpg"
+                  class="rounded-circle mx-auto mb-3"
+                  alt="Sonal Arora"
+                />
+                <h5 class="fw-bold mb-0 text-gold">Sonal Arora</h5>
+                <p class="mt-3 px-3 fst-italic">
+                  <i class="me-2 text-gold"></i>
+                  The gold and diamond sets are elegant, modern, and beautifully
+                  packaged.
+                </p>
+                <div class="text-gold mb-2">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div
+              class="swiper-slide"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="card bg-dark text-white border-0 p-4 test-card h-100">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).jpg"
+                  class="rounded-circle mx-auto mb-3"
+                  alt="Neha Kapoor"
+                />
+                <h5 class="fw-bold mb-0 text-gold">Neha Kapoor</h5>
+                <p class="mt-3 px-3 fst-italic">
+                  The intricate details on the bridal set were breathtaking.
+                  Highly recommend!
+                </p>
+                <div class="text-gold mb-2">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div
+              class="swiper-slide"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="card bg-dark text-white border-0 p-4 test-card h-100">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).jpg"
+                  class="rounded-circle mx-auto mb-3"
+                  alt="Amit Joshi"
+                />
+                <h5 class="fw-bold mb-0 text-gold">Amit Joshi</h5>
+                <p class="mt-3 px-3 fst-italic">
+                  Truly luxurious designs at affordable prices. My wife loved
+                  her anniversary gift.
+                </p>
+                <div class="text-gold mb-2">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 6 -->
+            <div
+              class="swiper-slide"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <div class="card bg-dark text-white border-0 p-4 test-card h-100">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).jpg"
+                  class="rounded-circle mx-auto mb-3"
+                  alt="Deepika Sharma"
+                />
+                <h5 class="fw-bold mb-0 text-gold">Deepika Sharma</h5>
+                <p class="mt-3 px-3 fst-italic">
+                  Exceptional customer service and jaw-dropping ring designs!
+                </p>
+                <div class="text-gold mb-2">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination mt-5"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+
+    <section class="contact-section py-5" id="contact">
+      <div class="container">
+        <div class="row align-items-center flex-md-row">
+          <h2 class="text-gold text-center fw-bold" data-aos="fade-up">
+            Contact Us
+          </h2>
+
+          <div class="col-md-6" data-aos="fade-right">
+            <p class="text-gold fw-bold">
+              Get in touch for custom orders, pricing, or any queries.
+            </p>
+            <div class="contact-form p-4 rounded-4 glass-bg shadow-lg">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label text-gold">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="phone" class="form-label text-gold"
+                      >Contact No.</label
+                    >
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="phone"
+                      placeholder="Phone"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label text-gold">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label text-gold"
+                    >Enquiry</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Write here"
+                  ></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="agree"
+                    required
+                  />
+                  <label class="form-check-label" for="agree"
+                    >I agree to the terms</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-gold">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <img
+              src="images/earing.jpg"
+              class="img-fluid rounded shadow-lg mt-md-0 right-img"
+              alt="Contact Jewellery"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h5>Royal Jewels</h5>
+            <p>
+              Crafting timeless elegance since 1985. Each piece tells a story of
+              luxury, quality, and unmatched craftsmanship.
+            </p>
+            <div class="social-icons mb-3">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5>Services</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h5>Contact Info</h5>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> H-221, Suite No. 309, 3rd
+              Floor, Sector-63, Infinity Tower Noida, UP-201301
+            </p>
+            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@jewels.com</p>
+          </div>
+        </div>
+        <hr style="border-color: var(--accent-gold); margin: 30px 0" />
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>
+              &copy; 2025 Jewels. All rights reserved. | Privacy Policy | Terms
+              of Service
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+
+     
+
+      document.querySelectorAll('a.nav-link[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetID = this.getAttribute("href");
+          const targetElement = document.querySelector(targetID);
+          const navbarHeight = document.querySelector(".navbar").offsetHeight;
+
+          const offsetPosition = targetElement.offsetTop - navbarHeight;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth",
+          });
+        });
+      });
+
+      const swiper = new Swiper(".mySwiper", {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
